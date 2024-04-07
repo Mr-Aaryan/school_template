@@ -81,12 +81,15 @@
           </Carousel>
     </div>
     <!-- Introduction -->
-    <div class="px-7 py-5 bg-[#10152E] border-green border-b-2 border-white-600">
-        <div class="text-2xl font-semibold text-white">ABC college of Engineering</div>
-        <div class="pt-2 ">
-            <p class="w-[250px] float-right pl-5"><img src="https://thumbs.dreamstime.com/b/middle-school-building-20723831.jpg" alt="" class="h-[250px] w-[250px]"></p>
-            <p class="w-[680px] text-justify text-white leading-5 font-mono">At ABC College of Engineering, our commitment to excellence in education and student support is unwavering. We strive to provide top-notch facilities and services to nurture the talents and aspirations of our students. Our faculty members are experts in their fields, dedicated to imparting knowledge and fostering critical thinking skills.
-                Our state-of-the-art laboratories, libraries, and research centers offer students hands-on experience and access to the latest technologies. We believe in providing a holistic education that prepares students not only for their careers but also for life beyond the classroom. Furthermore, we understand the financial constraints that many students and their families face. </p>
+    <div class="container mx-auto px-6 py-10 flex flex-row">
+        <div class="basis-2/3">
+            <h2 class="text-2xl font-semibold">ABC college of Engineering</h2>
+            <p class="w-[680px] text-justify leading-5">At ABC College of Engineering, our commitment to excellence in education and student support is unwavering. We strive to provide top-notch facilities and services to nurture the talents and aspirations of our students. Our faculty members are experts in their fields, dedicated to imparting knowledge and fostering critical thinking skills.
+                Our state-of-the-art laboratories, libraries, and research centers offer students hands-on experience and access to the latest technologies. We believe in providing a holistic education that prepares students not only for their careers but also for life beyond the classroom. Furthermore, we understand the financial constraints that many students and their families face.
+            </p>
+        </div>
+        <div class="basis-1/3 rounded-2xl">
+            <img src="https://thumbs.dreamstime.com/b/middle-school-building-20723831.jpg" alt="" class="h-[250px] w-[250px]">
         </div>
     </div>
     <!-- Facilities -->
@@ -133,14 +136,14 @@
         </div>
     </div>
     <!-- News & Events -->
-    <div class="px-7 py-5 bg-[#10152E] border-green border-b-2 border-white-600 text-white">
+    <div class="container mx-auto px-6 py-5 text-white">
         <div>
             <p class="text-2xl">News & Events</p>
         </div>
         <div>
             <ul>
                 {#each events as item}
-                    <li class="flex bg-[#D9D9D9] h-[88px] my-5">
+                    <li class="flex border rounded mt-5">
                         <div class="text-justify px-3 py-1 overflow-hidden ">
                             <p class="text-black text-xl pb-1">{item.title}</p>
                             <p class="text-[#000000b7] text-ellipsis">{item.desc}</p>

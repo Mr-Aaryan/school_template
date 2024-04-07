@@ -1,13 +1,39 @@
 <script>
-    import Left from '$lib/icons/Left.svelte';
-    import Right from '$lib/icons/Right.svelte';
+    import { Carousel, Indicator } from 'flowbite-svelte';
 
-    //Carousel
-    const carouselPhotos = [
-        'https://c1.wallpaperflare.com/preview/968/730/441/building-cheyenne-photos-high-school.jpg',
-        'http://hdpsbahu.com/images/Pages/school%20building.jpg',
-        'https://thumbs.dreamstime.com/b/middle-school-building-20723831.jpg',
-    ]
+    let image;
+    const images = [
+    {
+      alt: 'School Building',
+      src: 'https://c1.wallpaperflare.com/preview/968/730/441/building-cheyenne-photos-high-school.jpg',
+      title: 'school building'
+    },
+    {
+      alt: 'School Building',
+      src: 'http://hdpsbahu.com/images/Pages/school%20building.jpg',
+      title: 'School Building'
+    },
+    {
+      alt: 'School Building',
+      src: 'https://www.jkeducate.co.uk/app/uploads/2022/08/classroom-2093744_1920.jpg.webp',
+      title: 'School Building'
+    },
+    {
+      alt: 'School Building',
+      src: 'https://c1.wallpaperflare.com/preview/968/730/441/building-cheyenne-photos-high-school.jpg',
+      title: 'school building'
+    },
+    {
+      alt: 'School Building',
+      src: 'http://hdpsbahu.com/images/Pages/school%20building.jpg',
+      title: 'School Building'
+    },
+    {
+      alt: 'School Building',
+      src: 'https://www.jkeducate.co.uk/app/uploads/2022/08/classroom-2093744_1920.jpg.webp',
+      title: 'School Building'
+    },
+  ];
 
     let index = 0;
     const next = () =>{
@@ -48,15 +74,11 @@
 </script>
 <main class="font-inter font-medium">
     <!-- Carousel -->
-    <!-- Add circular buttons in image to show which one is active -->
-    <div class="flex items-center bg-[#10152E]">
-        <button class="bg-slate-200 px-1 py-1" on:click={next}><Left /></button>
-        <div>
-            {#each [carouselPhotos[index]] as src (index)}
-                <img {src} alt="" class="h-[400px] w-screen" />
-            {/each}
-        </div>
-        <button class="bg-slate-200 px-1 py-1" on:click={previous}><Right /></button>
+    <div>
+        <Carousel {images} let:Indicators let:Controls on:change={({ detail }) => (image = detail)}>
+            <Controls />
+            <Indicators />
+          </Carousel>
     </div>
     <!-- Introduction -->
     <div class="px-7 py-5 bg-[#10152E] border-green border-b-2 border-white-600">

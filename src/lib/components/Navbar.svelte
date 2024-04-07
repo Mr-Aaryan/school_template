@@ -6,12 +6,12 @@
     }
 </script>
   
-<header class="bg-[#10152E]">
+<header class="bg-white border-b">
     <nav class="">
         <div class="container px-6 py-6 mx-auto lg:flex lg:justify-between lg:items-center">
             <div class="flex items-center justify-between">
-                <a href="/">
-                    <img class="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
+                <a href="/" class="text-md font-semibold text-blue-500">
+                    ABC College
                 </a>
   
                   <!-- Mobile menu button -->
@@ -33,17 +33,12 @@
               <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
             <div class="{isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:shadow-none lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
             <ul class="flex flex-col space-y-8 lg:flex-row lg:items-center lg:space-y-0 lg:-px-8">
-                <li><a class="block font-medium text-white lg:mx-8 hover:text-underline hover:underline" href="/">Home</a></li>
-                <li><a class="block font-medium text-white lg:mx-8 hover:text-underline hover:underline" href="/about">About</a></li>
-                <li><a class="block font-medium text-white lg:mx-8 hover:text-underline hover:underline" href="/gallery">Gallery</a></li>
-                <li><a class="block font-medium text-white lg:mx-8 hover:text-underline hover:underline" href="/contact">Contact</a></li>
-                <li><a class="block font-medium text-white lg:mx-8 hover:text-underline hover:underline" href="/downloads">Downloads</a></li>
-  
-                <li>
-                    <button class="flex items-center justify-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-300 transform bg-gray-700 rounded-lg hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
-                      Admission
-                    </button>
-                </li>
+                <li><a class="block font-medium lg:mx-8 hover:underline" href="/">Home</a></li>
+                <li><a class="block font-medium lg:mx-8 hover:underline" href="/about">About</a></li>
+                <li><a class="block font-medium lg:mx-8 hover:underline" href="/gallery">Gallery</a></li>
+                <li><a class="block font-medium lg:mx-8 hover:underline" href="/contact">Contact</a></li>
+                <li><a class="block font-medium lg:mx-8 hover:underline" href="/notice">Notices</a></li>
+                <li><a class="block font-medium lg:mx-8 hover:underline" href="/downloads">Downloads</a></li>
             </ul>
           </div>
       </div>

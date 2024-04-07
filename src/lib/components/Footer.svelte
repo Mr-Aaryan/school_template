@@ -1,62 +1,13 @@
-<script>
-    import Location from "$lib/icons/Location.svelte"
-    import Email from "$lib/icons/Email.svelte";
-    import Call from "$lib/icons/Call.svelte";
-    import Facebook from '$lib/icons/Facebook.svelte';
-    import Instagram from '$lib/icons/Instagram.svelte';
-    import Twitter from '$lib/icons/Twitter.svelte';
-</script>
-
-<!-- <footer class="w-full bg-[#10152E] text-white font-inter font-medium">
-    <div class="container mx-auto flex justify-around px-6 py-5">
-        <div class="py-3 basis-1/3">
-            <p class="text-2xl">ABC college of Engineering</p>
-            <p class="py-2">ABC college of Engineering is one of the finest college of Nepal giving you the world class facilities and services to both the students and teachers as well as parents you know. We provide very friendly environment for students to gain enormous knowledge.</p>
-        </div>
-        <div class="py-3 basis-1/3">
-            <p class="text-xl">Contact Us</p>
-            <div class="py-3">
-                <ul>
-                    <li class="flex py-2">
-                        <i> <Call /> </i><span class="pl-1">+977-522428</span>
-                    </li>
-                    <li class="flex py-2">
-                        <i> <Email /> </i><span class="pl-1">abccollege@gmail.com</span>
-                    </li>
-                    <li class="flex py-2">
-                        <i> <Location /> </i><span class="pl-1">Tulsipur-5, Dang</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="flex">
-                <a href class="px-2"><i > <Facebook/> </i></a>
-                <a href class="px-2"><i > <Twitter/> </i></a>
-                <a href class="px-2"><i > <Instagram/> </i></a>
-            </div>
-        </div>
-        <div class="py-3 basis-1/4">
-            <p class="text-xl">Explore</p>
-            <ul class="list-disc py-3 px-4">
-                <li class="py-1"><a href class="hover:underline">Home</a></li>
-                <li class="py-1"><a href class="hover:underline">Facilities</a></li>
-                <li class="py-1"><a href class="hover:underline">Downloads</a></li>
-                <li class="py-1"><a href class="hover:underline">Academics</a></li>
-                <li class="py-1"><a href class="hover:underline">Security</a></li>
-            </ul>
-        </div>
-    </div>
-</footer> -->
-
-<footer class="bg-white dark:bg-gray-900">
+<footer class="bg-white dark:bg-gray-900 border-t mt-10 pt-10">
     <div class="container px-6 pt-10 mx-auto">
         <div class="lg:flex">
             <div class="w-full -mx-6 lg:w-2/5">
                 <div class="px-6">
-                    <a href="#">
-                        <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
+                    <a href="#" class="text-md font-semibold">
+                        ABC College
                     </a>
 
-                    <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">ABC college of Engineering is one of the finest college of Nepal giving you the world class facilities and services to both the students and teachers as well as parents you know. We provide very friendly environment for students to gain enormous knowledge.</p>
+                    <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae officiis explicabo, nihil alias labore sit veniam architecto sunt molestias inventore cum sed ratione aspernatur facere doloremque nemo deleniti? Cupiditate.<p>
 
                     <div class="flex mt-6 -mx-2">
                         <a href="#"
@@ -110,7 +61,7 @@
 
                     <div>
                         <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+1 526 654 8965</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+977-XXXXXX</span>
                         <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">example@email.com</span>
                     </div>
                 </div>

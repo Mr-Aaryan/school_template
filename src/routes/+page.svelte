@@ -6,12 +6,12 @@
     const images = [
         {
       alt: 'School Building',
-      src: 'http://hdpsbahu.com/images/Pages/school%20building.jpg',
+      src: 'https://c1.wallpaperflare.com/preview/968/730/441/building-cheyenne-photos-high-school.jpg',
       title: 'School Building'
     },
     {
       alt: 'School Building',
-      src: 'https://c1.wallpaperflare.com/preview/968/730/441/building-cheyenne-photos-high-school.jpg',
+      src: 'https://i0.wp.com/avenuemail.in/wp-content/uploads/2021/09/3-1.jpg?fit=1600%2C1067&ssl=1',
       title: 'school building'
     },
     {
@@ -21,19 +21,20 @@
     },
     {
       alt: 'School Building',
-      src: 'https://c1.wallpaperflare.com/preview/968/730/441/building-cheyenne-photos-high-school.jpg',
+      src: 'https://www.ejable.com/wp-content/uploads/2023/11/Japanese-school-students-2.webp',
+      title: 'School Building'
+    },
+    {
+      alt: 'School Building',
+      src: 'https://3.files.edl.io/4cef/23/04/24/180648-a08aced7-5823-4211-b842-8af7338b55d2.jpg',
       title: 'school building'
     },
     {
       alt: 'School Building',
-      src: 'http://hdpsbahu.com/images/Pages/school%20building.jpg',
+      src: 'https://kmcschool.edu.np/wp-content/uploads/2024/03/kmc-banner-school1-scaled.jpg',
       title: 'School Building'
     },
-    {
-      alt: 'School Building',
-      src: 'https://www.jkeducate.co.uk/app/uploads/2022/08/classroom-2093744_1920.jpg.webp',
-      title: 'School Building'
-    },
+
   ];
 
     let index = 0;
@@ -82,7 +83,7 @@
           </Carousel>
     </div>
     <!-- Introduction -->
-    <div class="container mx-auto py-16">
+    <div class="container mx-auto py-16 px-3">
         <h2 class="text-center text-5xl font-bold">Introduction</h2>
         <p class="mt-10 max-w-5xl mx-auto text-center text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
